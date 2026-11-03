@@ -94,13 +94,23 @@
             project2_title: "Landing Page SIMETRIC GI | \"SPOT NÁPOLES KANSAS\"",
             project3_title: "CRM SIMETRIC",
             project4_title: "Atelier",
-            project5_title: "Primer portafolio web",
             project1_description: "Proyecto enfocado en la interactividad y la experiencia de usuario (UX) para la venta de departamentos exclusivos.",
             project2_description: "Actualización de la página en el diseño y funcionalidades. Integración con PHP para la gestión de formularios de contacto y validación de datos en el servidor. Estructura en HTML/CSS orientada al rendimiento, asegurando que las imágenes de gran formato no afecten la velocidad de carga. Resultado: Interfaz actualizada y fluida que responde a las acciones del usuario.",
             project3_description: "CRM para administrar clientes, personal de la empresa y oportunidades de venta. Se realizaron mejoras y optimizaciones dentro del sistema.",
             project4_description: "Propuesta de tienda en línea con diseño minimalista, catálogo de productos y experiencia de compra.",
-            project5_description: "Primer portafolio web desarrollado con HTML, CSS y JavaScript, con el objetivo de mostrar mis habilidades y proyectos.",
             visit_website: "Visitar sitio web",
+            // PROYECTOS PERSONALES
+            personal_project_type: "Proyecto personal",
+            personal_project_technologies: "Tecnologías:",
+            personal_project_view: "Ver portafolio",
+
+            personal_portfolio_title: "Desarrollo de portafolio profesional",
+            personal_portfolio_date: "2026 - Actualidad",
+            personal_portfolio_description: "Desarrollo y publicación de mi segundo portafolio web profesional para presentar el avance de mi perfil, experiencia, formación y proyectos de desarrollo de software.",
+
+            personal_first_portfolio_title: "Desarrollo de primer portafolio web profesional",
+            personal_first_portfolio_date: "Abril 2026",
+            personal_first_portfolio_description: "Desarrollo y publicación de mi primer portafolio web profesional para presentar mi perfil, experiencia y formación.",
 
             contact_subtitle: "Hablemos",
             contact_title: "Contacto",
@@ -221,13 +231,23 @@
             project2_title: "SIMETRIC GI Landing Page | \"SPOT NAPOLES KANSAS\"",
             project3_title: "SIMETRIC CRM",
             project4_title: "Atelier",
-            project5_title: "First Web Portfolio",
             project1_description: "Project focused on interactivity and user experience (UX) for the sale of exclusive apartments.",
             project2_description: "Website design and functionality updates. PHP integration for contact form management and server-side data validation. HTML/CSS structure focused on performance, ensuring that large-format images do not affect loading speed. Result: an updated and fluid interface that responds to user actions.",
             project3_description: "CRM system for managing customers, company staff and sales opportunities. Improvements and optimizations were implemented within the system.",
             project4_description: "Online store concept with a minimalist design, product catalog and shopping experience.",
-            project5_description: "First web portfolio developed with HTML, CSS and JavaScript to showcase my skills and projects.",
             visit_website: "Visit website",
+            // PERSONAL PROJECTS
+            personal_project_type: "Personal Project",
+            personal_project_technologies: "Technologies:",
+            personal_project_view: "View Portfolio",
+
+            personal_portfolio_title: "Professional Portfolio Development",
+            personal_portfolio_date: "2026 - Present",
+            personal_portfolio_description: "Development and deployment of my second professional web portfolio to showcase the progress of my profile, experience, education, and software development projects.",
+
+            personal_first_portfolio_title: "Development of My First Professional Web Portfolio",
+            personal_first_portfolio_date: "April 2026",
+            personal_first_portfolio_description: "Development and deployment of my first professional web portfolio to showcase my profile, experience, and education.",
 
             contact_subtitle: "Let's talk",
             contact_title: "Contact",

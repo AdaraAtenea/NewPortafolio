@@ -89,3 +89,111 @@
                 left: 3px;
             }
         }
+        /* ===== TARJETAS DE EXPERIENCIA Y PROYECTOS ===== */
+        .experience-card {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 18px;
+            padding: 28px;
+            margin-top: 30px;
+            max-width: 850px;
+            box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .experience-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 30px rgba(15, 23, 42, 0.10);
+        }
+        .experience-type {
+            display: inline-block;
+            background: #f1eaff;
+            color: #7c3aed;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 7px 13px;
+            border-radius: 30px;
+            margin-bottom: 14px;
+        }
+        .experience-card h3 {
+            color: #1e293b;
+            font-size: 21px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .experience-date {
+            color: #7c3aed;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .experience-card p {
+            color: #64748b;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+            margin: 12px 0 22px;
+        }
+        .tech-stack span {
+            background: #f3f4f6;
+            color: #475569;
+            border-radius: 8px;
+            padding: 7px 12px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .experience-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .experience-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #7c3aed;
+            color: #ffffff;
+            padding: 11px 18px;
+            border-radius: 9px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .experience-links a:hover {
+            background: #6d28d9;
+        }
+        /* Modo oscuro */
+        .dark .experience-card {
+            background: #1e293b;
+            border-color: #334155;
+        }
+        .dark .experience-card h3 {
+            color: #f8fafc;
+        }
+        .dark .experience-card p {
+            color: #cbd5e1;
+        }
+        .dark .tech-stack span {
+            background: #334155;
+            color: #e2e8f0;
+        }
+        /* Adaptación móvil */
+        @media (max-width: 640px) {
+            .experience-card {
+                padding: 20px;
+            }
+            .experience-card h3 {
+                font-size: 19px;
+            }
+            .experience-links {
+                flex-direction: column;
+            }
+            .experience-links a {
+                width: 100%;
+            }
+        }
